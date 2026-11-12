@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "repository": "X-Cicada/Applet-Modules",
+  "modules": [
+    {
+      "id": "xiongda-diamonds",
+      "name": "熊大快跑 · 数量与解锁",
+      "latest": "0.3.1",
+      "versions": [
+        {
+          "version": "0.3.1",
+          "name": "熊大快跑 · 数量与解锁",
+          "description": "货币数量、屏蔽广告、可用人物与道具持久解锁，保留原值并手动还原",
+          "minKernel": 12,
+          "targets": [
+            {
+              "hostPackage": "com.ss.android.ugc.aweme",
+              "appId": "tt657713cafa49ad8702"
+            }
+          ],
+          "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/xiongda-diamonds-v0.3.1",
+          "publishedAt": "2026-11-12T22:18:42Z",
+          "notes": "## 熊大快跑 · 数量与解锁 0.3.1\n\n- 面板显示实际已解锁人数，明确“开始模块”和“执行解锁”的区别。\n- 支持当前开放的 6 名人物；保留已有角色等级与字段。3 种消耗道具、5 种碎片各补到至少 1，不降低已有数量。\n- 解锁写入存档，重开保留，可分别手动还原人物/道具与货币；停止和重载不自动撤回。\n- 提供广告屏蔽开关。\n- 合并云端读取、账号检查和人物/物品目录；修复异步账号检查时序问题。\n\n兼容：抖音熊出没之熊大快跑 1.1.8，模块内核至少 12。开始后点“解锁人物与道具”，面板应显示 6/6。详细操作和还原边界见 ZIP 内 README。\n\n验证：31 项相关用例通过；原测试手机实际选用太空熊进入游戏，原有等级和较多道具数量保留。ZIP 文件与该实测版本逐字节一致。\n\nZIP SHA256：`21d827b9ece9f3951da49b1b37db580785e25c2a24c79548b70c7b870edf667d`\n",
+          "download": {
+            "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/xiongda-diamonds-v0.3.1/xiongda-diamonds-0.3.1.zip",
+            "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/741300920",
+            "sha256": "21d827b9ece9f3951da49b1b37db580785e25c2a24c79548b70c7b870edf667d",
+            "size": 10339
+          }
+        }
+      ]
+    }
+  ]
+}
