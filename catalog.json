@@ -59,6 +59,90 @@
       ]
     },
     {
+      "id": "bailian-tools",
+      "name": "百炼英雄 · 游玩工具",
+      "latest": "0.2.0",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "name": "百炼英雄 · 游玩工具",
+          "description": "普通摇杆后撤一步、可还原视野缩放、位置标记与目标信息；可与战斗观察同时运行。后撤不保证脱战，不修改寻敌或战斗结算。",
+          "minKernel": 11,
+          "targets": [
+            {
+              "hostPackage": "com.tencent.mm",
+              "appId": "wx28a4f4446d1676f7"
+            }
+          ],
+          "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/bailian-tools-v0.2.0",
+          "publishedAt": "2026-11-12T22:19:23Z",
+          "notes": "## 百炼英雄 · 游玩工具 0.2.0\n\n首次收录当前工程中的独立模块包，版本与 module.json 一致。\n\n普通摇杆后撤一步、可还原视野缩放、位置标记与目标信息；可与战斗观察同时运行。后撤不保证脱战，不修改寻敌或战斗结算。\n\n这是现有模块的发布归档，不表示本次重新完成了游戏业务实测。兼容目标和最低内核版本以包内声明为准；安装不会自动授权小程序或启动模块。\n\nZIP SHA256：`d961698dde9f00d84dbab009e4c5938a35e2a32a14f916357014206ad58f4426`\n",
+          "download": {
+            "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/bailian-tools-v0.2.0/bailian-tools-0.2.0.zip",
+            "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/741302871",
+            "sha256": "d961698dde9f00d84dbab009e4c5938a35e2a32a14f916357014206ad58f4426",
+            "size": 4189
+          }
+        }
+      ]
+    },
+    {
+      "id": "farm",
+      "name": "农场观察器",
+      "latest": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "name": "农场观察器",
+          "description": "当前农场状态与受控调用",
+          "minKernel": 10,
+          "targets": [
+            {
+              "hostPackage": "com.tencent.mobileqq",
+              "appId": "1112386029"
+            }
+          ],
+          "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/farm-v0.1.0",
+          "publishedAt": "2026-11-12T22:19:27Z",
+          "notes": "## 农场观察器 0.1.0\n\n首次收录当前工程中的独立模块包，版本与 module.json 一致。\n\n当前农场状态与受控调用\n\n这是现有模块的发布归档，不表示本次重新完成了游戏业务实测。兼容目标和最低内核版本以包内声明为准；安装不会自动授权小程序或启动模块。\n\nZIP SHA256：`7be810c9f4d3ff8227f0a1cf07b848cefc8da025ae36e122a1885fab146ace56`\n",
+          "download": {
+            "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/farm-v0.1.0/farm-0.1.0.zip",
+            "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/741303103",
+            "sha256": "7be810c9f4d3ff8227f0a1cf07b848cefc8da025ae36e122a1885fab146ace56",
+            "size": 2017
+          }
+        }
+      ]
+    },
+    {
+      "id": "probe",
+      "name": "生命周期探针",
+      "latest": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "name": "生命周期探针",
+          "description": "验证加载、日志与资源清理",
+          "minKernel": 10,
+          "targets": [
+            {
+              "hostPackage": "com.tencent.mobileqq",
+              "appId": "1112386029"
+            }
+          ],
+          "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/probe-v0.1.0",
+          "publishedAt": "2026-11-12T22:19:31Z",
+          "notes": "## 生命周期探针 0.1.0\n\n首次收录当前工程中的独立模块包，版本与 module.json 一致。\n\n验证加载、日志与资源清理\n\n这是现有模块的发布归档，不表示本次重新完成了游戏业务实测。兼容目标和最低内核版本以包内声明为准；安装不会自动授权小程序或启动模块。\n\nZIP SHA256：`af1bf2ae487b3ca7fe2e5afe4ffe5e948aa4d457fa8ab78b573e7a55b08c0223`\n",
+          "download": {
+            "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/probe-v0.1.0/probe-0.1.0.zip",
+            "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/741303327",
+            "sha256": "af1bf2ae487b3ca7fe2e5afe4ffe5e948aa4d457fa8ab78b573e7a55b08c0223",
+            "size": 753
+          }
+        }
+      ]
+    },
+    {
       "id": "xiongda-diamonds",
       "name": "熊大快跑 · 数量与解锁",
       "latest": "0.3.1",
