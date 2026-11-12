@@ -143,6 +143,29 @@
       ]
     },
     {
+      "id": "runtime-probe",
+      "name": "通用运行时探针",
+      "latest": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "name": "通用运行时探针",
+          "description": "验证加载、热重载、状态、事件与清理；连接后添加当前实例作用域",
+          "minKernel": 10,
+          "targets": [],
+          "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/runtime-probe-v0.1.0",
+          "publishedAt": "2026-11-12T22:19:35Z",
+          "notes": "## 通用运行时探针 0.1.0\n\n首次收录当前工程中的独立模块包，版本与 module.json 一致。\n\n验证加载、热重载、状态、事件与清理；连接后添加当前实例作用域\n\n这是现有模块的发布归档，不表示本次重新完成了游戏业务实测。兼容目标和最低内核版本以包内声明为准；安装不会自动授权小程序或启动模块。\n\nZIP SHA256：`3ffe7a2a176784478a10c8dac6ac7f1c4cd9acc56fde565af8dd8d860bc6976b`\n",
+          "download": {
+            "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/runtime-probe-v0.1.0/runtime-probe-0.1.0.zip",
+            "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/741303546",
+            "sha256": "3ffe7a2a176784478a10c8dac6ac7f1c4cd9acc56fde565af8dd8d860bc6976b",
+            "size": 878
+          }
+        }
+      ]
+    },
+    {
       "id": "xiongda-diamonds",
       "name": "熊大快跑 · 数量与解锁",
       "latest": "0.3.1",
