@@ -193,5 +193,26 @@
         }
       ]
     }
-  ]
+  ],
+  "app": {
+    "packageName": "com.applet.store",
+    "latestVersionCode": 50,
+    "versions": [
+      {
+        "version": "0.13.22",
+        "versionCode": 50,
+        "minSdk": 33,
+        "packageName": "com.applet.store",
+        "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/app-v0.13.22",
+        "publishedAt": "2026-11-12T22:31:35Z",
+        "notes": "## Applet Store 0.13.22\n\n- 新增在线模块仓库，支持搜索、查看版本历史/更新日志、安装和更新模块。\n- 设置新增 App 更新：检查新版、下载校验后交给系统安装器。\n- 保留现有三个底部页签和 Miuix/玻璃界面组件，模块运行页与编辑流程保持一致。\n- 目录、下载和校验共用实现；模块更新仍保护运行会话、本地草稿和已编辑包。\n- 下载检查文件大小与 SHA256；App 更新另核对包名、版本、Android 兼容性和原签名。\n- 发布源默认 X-Cicada/Applet-Modules，可配置其它同格式 GitHub 仓库；私有源支持仅当前会话保留的只读凭据。\n\n支持 Android 13+、ARM64。覆盖安装保留应用数据与已有模块。模块更新不会自动扩大作用域或启动模块。\n\n当前已收录工程中的7个模块。各模块的兼容与使用说明以对应模块 Release 和包内说明为准。\n",
+        "download": {
+          "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/app-v0.13.22/AppletStore-0.13.22.apk",
+          "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/741339727",
+          "sha256": "1593d923d0be5531fb40fc2fbe8fdb74cb60f8ff3bee773f7bf50503801caec9",
+          "size": 5856602
+        }
+      }
+    ]
+  }
 }
