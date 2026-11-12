@@ -1,0 +1,26 @@
+name: Update module catalog
+
+on:
+  release:
+    types: [published, edited, deleted]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: module-catalog
+  cancel-in-progress: false
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Generate catalog from published module ZIPs
+        run: python3 build_catalog.py
+        env:
+          GH_TOKEN: ${{ github.token }}
