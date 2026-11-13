@@ -196,8 +196,23 @@
   ],
   "app": {
     "packageName": "com.applet.store",
-    "latestVersionCode": 54,
+    "latestVersionCode": 55,
     "versions": [
+      {
+        "version": "0.13.27",
+        "versionCode": 55,
+        "minSdk": 33,
+        "packageName": "com.applet.store",
+        "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/app-v0.13.27",
+        "publishedAt": "2026-11-13T05:44:36Z",
+        "notes": "## Applet Store 0.13.27 · 内核 15\n\n- 悬浮窗：修复部分微信 Cocos 环境中文字空白，保留玻璃、拖动、折叠及位置保存。\n- 模块：修复断开后跨宿主部署失败；协调多个模块对同一对象的异步写入，读取和独立模块不受限制。\n- 农场：完善收获结果确认、好友访问结算和账号切换防重放；不重复发送结果未知的操作。\n- V8：修复闭包查询、集合深度和不完整上下文链处理，共用 JS API 保持一致。\n- 内核：连接时检查版本；无模块运行时可更新，仍有模块时先停止并卸载，避免覆盖运行状态。\n\n### 验收与兼容范围\n\n本次实体手机保留 QQ 9.3.65、微信 8.0.79、抖音 40.5.0，已验证指定加载、热重载、多模块资源协调、窗口显示/按钮和卸载。微信同一组游戏进程完成空内核 14→15 更新；QQ 拖动、折叠及重载位置保留通过。发布 APK 与最终真机安装包 SHA-256 一致。\n\n沿用 0.13.26 的核心能力识别：QQ 9.3.30 修复、QQ 11 版静态核心检查、微信 7 版归档核心检查及抖音 40.8.0 模拟器验证。三年约半年取样的 21 份历史 APK 是静态证据，不代表每版都完成登录运行；抖音历史动态 V8 库未全部取得。按接口结构、指令特征和实时布局校准适配，不以 APK 版本白名单接受或拒绝；无法确认的新结构会明确拒绝，不能承诺所有未来版本。\n\n此次定向检查：18 组 JS、45 项 Python、116 项 JVM（1 项环境条件跳过）、39 项源码守卫；另发布工具 4 项。未重跑全量 Lint 或长期稳定性测试。窗口实测与首次热进程健康观察属于不同证据，后者仍未确认唯一根因。\n\nAndroid 13+、ARM64、需要 root。覆盖安装保留现有模块和数据。本包包含 6 个已入库内置模块，保留手机独立安装的其它 ZIP；不携带未复核实验源码。\n\n源代码基线：c5051e4。发布到分发仓库，不推送开发源码。\n\nSHA-256：`c9318c406d9549f4f12b858d3c30432e61bccfdfee5a961ab91a7b2b955d6bb0`\n",
+        "download": {
+          "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/app-v0.13.27/AppletStore-0.13.27.apk",
+          "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/742446806",
+          "sha256": "c9318c406d9549f4f12b858d3c30432e61bccfdfee5a961ab91a7b2b955d6bb0",
+          "size": 6821214
+        }
+      },
       {
         "version": "0.13.26",
         "versionCode": 54,
