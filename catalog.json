@@ -196,8 +196,23 @@
   ],
   "app": {
     "packageName": "com.applet.store",
-    "latestVersionCode": 51,
+    "latestVersionCode": 54,
     "versions": [
+      {
+        "version": "0.13.26",
+        "versionCode": 54,
+        "minSdk": 33,
+        "packageName": "com.applet.store",
+        "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/app-v0.13.26",
+        "publishedAt": "2026-11-13T03:02:13Z",
+        "notes": "## 核心适配\n\n- 修复 QQ 9.3.30 安装核心时被整个 DEX 摘要拒绝的问题。改为识别选择器结构族和 JS 生命周期；引擎版本、目录从实际元数据解析。\n- 微信主／子上下文入口改为按接口结构定位；commLib 版本、备份摘要与缓存目录取自当前选择记录。\n- 抖音 40.8.0 支持实际下载核心和内置回退核心，按能力定位读文件、编译、UDP 和启动事件；安装、还原仍校验文件所有权。\n\n## 共用内核与反射\n\n- 内核 13：共用 JS 反射 API 增加临时布局校准，读取结束或模块卸载即清理。\n- V8 优先复用同一库的证据；未知构建用指令特征和实际对象校准，微信裁剪内部符号时增加公开函数定位路径。\n- 修复抖音全宽快照的类名和 ScopeInfo 名称读取。QQ 反射不再只限定农场 AppID，仍要求有效作用域与认证会话。\n\n## 验证范围\n\n- QQ 11 个实际 APK、微信 7 版归档核心的静态接口检查通过；不等于各版都登录后实测。\n- 模拟器抖音 40.8.0：管理器自己的安装／还原、未登录小游戏中的自有测试组件、JS 求值、UDP 往返、布局校准通过；未绕过认证、未调用游戏业务。\n- 104 项相关 JVM／守卫、9 组 JS、12 项路由检查、5 个 native 夹具通过；Lint 0 错误。\n- APK 仍支持 Android 13+ ARM64，需要 root；本轮没有重测实体手机和 UI。已有 ZIP 模块内容没有更新。\n\n## 使用与边界\n\n已经运行内核 12 的小程序，请先停止并卸载运行模块，再重新打开小程序升级到内核 13。旧核心补丁需要更新时按管理器还原／安装入口操作。\n\n兼容按实际接口结构族判断，不承诺任意未来版本。未知容器／Parcel 格式、缺失关键接口或多份竞争引擎无法唯一判断时会拒绝；早期 QQ 竞争中的 Triton JS 选择仍需单独解析。微信陌生 V8 构建的公开函数定位已做静态验证，实际堆扫描尚未逐版实测。\n",
+        "download": {
+          "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/app-v0.13.26/AppletStore-0.13.26.apk",
+          "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/742046427",
+          "sha256": "555196e108e2af4600c0fa1b2c769eccb99d4359b687b8cafb27a59de1e498d6",
+          "size": 6827431
+        }
+      },
       {
         "version": "0.13.23",
         "versionCode": 51,
