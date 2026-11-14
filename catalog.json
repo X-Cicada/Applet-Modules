@@ -196,8 +196,23 @@
   ],
   "app": {
     "packageName": "com.applet.store",
-    "latestVersionCode": 55,
+    "latestVersionCode": 60,
     "versions": [
+      {
+        "version": "0.13.32",
+        "versionCode": 60,
+        "minSdk": 33,
+        "packageName": "com.applet.store",
+        "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/app-v0.13.32",
+        "publishedAt": "2026-11-14T12:03:56Z",
+        "notes": "QQ 农场\n- 游戏内接入 JS ImGui，支持分页、开关、拖动和折叠。\n- 自动重连、任务和免费奖励接入既有操作账本，未确认操作不重复发送。\n\n通用功能\n- QQ 旧补丁残留恢复与当前缓存定位，模块开始前就地检查安装环境。\n- 修正网络变化与可见小游戏的状态同步。\n\n版本与验证\n- 管理器 0.13.32，内核 21，自动农场 0.9.0。arm64 / Android 13 及以上。\n- QQ 农场真机验证 ImGui 控制、双窗口、热重载与清理。微信/抖音 ImGui 尚未验证。\n- 当前账号图鉴未解锁、赛季查询被服务器拒绝，未验证这两类实际领取。\n- 本发布不含独立实验模块。\n",
+        "download": {
+          "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/app-v0.13.32/AppletStore-0.13.32.apk",
+          "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/747360800",
+          "sha256": "bc818b19d5ee813f3bccfd3c9c9bf9ca46cfd3f51d4755043523e9f5b62c49af",
+          "size": 8895887
+        }
+      },
       {
         "version": "0.13.27",
         "versionCode": 55,
