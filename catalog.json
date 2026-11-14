@@ -217,8 +217,23 @@
   ],
   "app": {
     "packageName": "com.applet.store",
-    "latestVersionCode": 60,
+    "latestVersionCode": 63,
     "versions": [
+      {
+        "version": "0.13.35",
+        "versionCode": 63,
+        "minSdk": 33,
+        "packageName": "com.applet.store",
+        "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/app-v0.13.35",
+        "publishedAt": "2026-11-14T15:45:29Z",
+        "notes": "Applet Store 0.13.35 · 内核 25\n\n- ImGui 改为按需加载的公共组件，同一个小游戏环境共用运行库；包含微信、抖音窗口适配。\n- 修复模块卸载后，迟到回调可能遗留计时器、监听和全局变量的问题。\n- 修复模块库保存失败时仍显示设置生效、继续发送操作的问题。\n- 内核升级同时核对组件目录指纹，避免同版本号却使用不同字体/组件时加载失败。\n\n升级前请先停止并断开运行中的模块，再安装新版并重新开始。新版本不会强行替换仍有模块的旧内核。\n\n本次在自有手机的 QQ 农场环境定向验证加载、窗口显示、热重载、卸载及升级拒绝/替换分支；没有更新 QQ、微信或抖音，也未重跑全套宿主测试。公开工件仅 APK 和更新元数据，不包含管理器工程源码。\n",
+        "download": {
+          "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/app-v0.13.35/AppletStore-0.13.35.apk",
+          "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/747951016",
+          "sha256": "b98f25b7bcf2bb0e091ef79663f5e18650e1ec646da65b52931ec828cc50228b",
+          "size": 8898091
+        }
+      },
       {
         "version": "0.13.32",
         "versionCode": 60,
