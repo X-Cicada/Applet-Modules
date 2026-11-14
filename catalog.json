@@ -5,8 +5,33 @@
     {
       "id": "auto-farm",
       "name": "自动农场",
-      "latest": "0.9.0",
+      "latest": "0.9.1",
       "versions": [
+        {
+          "version": "0.9.1",
+          "name": "自动农场",
+          "description": "自动收获、出售、补种；可在小程序内开关，并同步状态。",
+          "minKernel": 21,
+          "targets": [
+            {
+              "hostPackage": "com.tencent.mobileqq",
+              "appId": "1112386029"
+            },
+            {
+              "hostPackage": "com.tencent.mm",
+              "appId": "wx5306c5978fdb76e4"
+            }
+          ],
+          "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/auto-farm-v0.9.1",
+          "publishedAt": "2026-11-14T17:17:04Z",
+          "notes": "自动农场 0.9.1\n\nQQ / 微信\n- 同一个模块支持QQ经典农场和微信QQ经典农场，共用种收引擎、回执账本与面板。\n- 好友查询和推荐列表组件按实际平台适配；微信好友列表查询已验证，好友收取未实测。\n- 保留已有QQ账本；新任务使用中性目录，不复制未决操作记录。\n\n建议先更新管理器至0.13.36。首次使用先在对应QQ/微信空间打开农场，再授权作用域并选择运行位置。切换宿主前先停止并断开当前连接。最低内核21；当前验证环境为内核25、游戏1.16.3.8，不承诺任意未来业务结构自动兼容。\n\n微信实测完成收获6、清理6、出售、买种、再播种6；热重载后账本保留，卸载后实例和窗口清理；切回QQ后旧记录保留并继续运行。\n",
+          "download": {
+            "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/auto-farm-v0.9.1/auto-farm-0.9.1.zip",
+            "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/748202294",
+            "sha256": "54019c10483f2479b8ac85477adabaff9a8f1e4d397897b8e8b77ec76efc0855",
+            "size": 40818
+          }
+        },
         {
           "version": "0.9.0",
           "name": "自动农场",
@@ -217,8 +242,23 @@
   ],
   "app": {
     "packageName": "com.applet.store",
-    "latestVersionCode": 63,
+    "latestVersionCode": 64,
     "versions": [
+      {
+        "version": "0.13.36",
+        "versionCode": 64,
+        "minSdk": 33,
+        "packageName": "com.applet.store",
+        "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/app-v0.13.36",
+        "publishedAt": "2026-11-14T17:16:59Z",
+        "notes": "Applet Store 0.13.36 · 内核25\n\n微信小程序\n- 修复未使用插件的小游戏被误判、缺少模块安装入口的问题；字段存在时仍严格检查类型。\n\n自动农场\n- 内置农场模块更新为0.9.1，QQ和微信共用一套引擎、账本和面板，只适配平台差异。\n- 已有QQ记录保留；微信新任务使用独立的宿主存储。\n\n升级后在同一农场模块中授权目标小程序并选择运行位置。切换QQ/微信前先停止并断开当前连接；当前不是跨宿主同时双会话。\n\n沿用本次已完成的真机验收：微信完整种收一轮、热重载、卸载，QQ旧账本恢复；未逐项验证微信好友收取、全部奖励或强制登录失效。公开工件仅APK与更新元数据，管理器工程源码不公开。\n",
+        "download": {
+          "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/app-v0.13.36/AppletStore-0.13.36.apk",
+          "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/748201999",
+          "sha256": "efa295779fb0c9839c2fa4127bbd9e8a393678aec4ab3d08ff79ba7b41d3fada",
+          "size": 8898751
+        }
+      },
       {
         "version": "0.13.35",
         "versionCode": 63,
