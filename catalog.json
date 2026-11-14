@@ -5,8 +5,29 @@
     {
       "id": "auto-farm",
       "name": "自动农场",
-      "latest": "0.8.1",
+      "latest": "0.9.0",
       "versions": [
+        {
+          "version": "0.9.0",
+          "name": "自动农场",
+          "description": "自动收获、出售、补种；可在小程序内开关，并同步状态。",
+          "minKernel": 21,
+          "targets": [
+            {
+              "hostPackage": "com.tencent.mobileqq",
+              "appId": "1112386029"
+            }
+          ],
+          "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/auto-farm-v0.9.0",
+          "publishedAt": "2026-11-14T12:04:09Z",
+          "notes": "QQ 农场\n- JS ImGui 游戏悬浮窗：概览、自动功能、奖励、土地分页。\n- 接入任务、免费奖励和原生网络恢复，复用原账本。\n- 热重载保留设置和窗口位置。\n\n需要 Applet Store 0.13.32 / 内核 21。图鉴与赛季当前账号仅验证读取拒绝和不发送领取，尚未验证实领。\n",
+          "download": {
+            "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/auto-farm-v0.9.0/auto-farm-0.9.0.zip",
+            "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/747361448",
+            "sha256": "79b06d1731b7b853c023085b486aaff5330ef6aee6ea6288366755d187be908c",
+            "size": 40260
+          }
+        },
         {
           "version": "0.8.1",
           "name": "自动农场",
