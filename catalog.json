@@ -242,8 +242,23 @@
   ],
   "app": {
     "packageName": "com.applet.store",
-    "latestVersionCode": 64,
+    "latestVersionCode": 68,
     "versions": [
+      {
+        "version": "0.13.40",
+        "versionCode": 68,
+        "minSdk": 33,
+        "packageName": "com.applet.store",
+        "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/app-v0.13.40",
+        "publishedAt": "2026-11-16T12:50:03Z",
+        "notes": "Applet Store 0.13.40 / 内核 25\n\n### 启动与连接\n- 模块“开始”一次确认，按需打开小游戏、检查或安装核心，再连接运行。\n- 抖音可直接拉起小游戏；冷启动或进程中途退出后，在原有等待时限内自动重新拉起和核对，不重放结果不确定的模块操作。\n- 微信启动按参数结构适配；微信、抖音切换核心时保留绑定，并支持失败回滚。\n- 其他宿主或多开空间里的模块运行时，不再阻止当前宿主安装核心。\n\n### 稳定性与整理\n- 收拢重复的文本、摘要和测试工具实现，补齐相关回归检查。\n- 界面与模块 API 保持不变，自动农场仍为 0.9.1。\n\n### 验证范围\n- QQ 9.3.65 多开、微信 8.0.79 多开、抖音 40.5.0 主空间已完成相关加载、热重载和卸载验证。\n- 最终包补验：抖音启动中途关闭后，管理器自行拉起并在约 43 秒连接；测试探针已清理，农场恢复运行。\n- 冷启动中仍可能短暂显示检查错误；未穷尽全部宿主版本与长期网络异常，不承诺所有未来版本兼容。\n\n仅支持 arm64、Android 13 及以上；覆盖安装保留管理器数据。附件只有 APK 和更新描述，管理器源码不公开。\n",
+        "download": {
+          "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/app-v0.13.40/AppletStore-0.13.40.apk",
+          "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/754839484",
+          "sha256": "e7b52c6c0b46639cd304ee59ee65cd80cce0599db0de18531ea19c67fe0cf72e",
+          "size": 8958408
+        }
+      },
       {
         "version": "0.13.36",
         "versionCode": 64,
