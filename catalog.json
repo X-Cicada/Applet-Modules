@@ -242,8 +242,23 @@
   ],
   "app": {
     "packageName": "com.applet.store",
-    "latestVersionCode": 68,
+    "latestVersionCode": 73,
     "versions": [
+      {
+        "version": "0.13.45",
+        "versionCode": 73,
+        "minSdk": 33,
+        "packageName": "com.applet.store",
+        "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/app-v0.13.45",
+        "publishedAt": "2026-11-17T16:22:40Z",
+        "notes": "Applet Store 0.13.45 / 内核 27\n\n### QQ、微信、抖音：启动与连接\n- 确认“开始”后，准备流程由服务接手；管理器被系统结束后，再次启动可按已确认的步骤接续。\n- 修复管理器重启后误把仍在游戏中运行的模块当成已结束的问题；断开前核对实际进程。\n- 一个通道监听失败不再拖住其他宿主的连接；保留健康连接，单独重试失败的监听。\n- 对齐核心操作和回执等待时限，改善进程冻结后恢复时的结果接收。\n\n### 微信与共用悬浮窗\n- 修复微信 ImGui 复选框操作导致的窗口异常。\n- 补齐画布重建后的重绘；绘制异常或 GL 上下文丢失时有限重建窗口，不重启模块或重发业务操作。\n\n### 核心维护与使用反馈\n- 改善已验证安装记录的快照恢复；未知内容仍拒绝覆盖。\n- 抖音更新无关组件、导致选择文件改名时，不再误判未变化的核心。\n- QQ 还原或迁移后清理本次遗留的空组件目录，保留未知文件与游戏数据。\n- 统一普通操作的失败提示，保留原始诊断；结果未知时明确提醒先核对，避免误重做。\n- 修复编辑器布局尚未完成时，无障碍剪切绕过输入保护的问题。\n\n### 验证与已知边界\n- QQ、微信、抖音相关加载、热重载、卸载及启动恢复场景已有真机记录；本包额外通过模型失败和链接安全等隔离验证。\n- QQ 曾出现一次“小游戏更新缓存、重装核心后首次未认证”，原因仍未查明。已增加本次启动的缓存与通道现场记录，本版不宣称根治。\n- 未完成连续数小时的正式挂机观测，不承诺所有历史或未来宿主版本均兼容；Android 是否重新创建被结束的服务仍由系统决定。\n\n仅支持 arm64、Android 13 及以上。沿用原签名，覆盖安装保留管理器数据。自动农场模块仍为 0.9.1，本次没有重新发布模块。\n\n附件仅为 APK 和更新元数据；管理器工程源码不公开。\n",
+        "download": {
+          "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/app-v0.13.45/AppletStore-0.13.45.apk",
+          "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/759765785",
+          "sha256": "456631587841c442f70f4b1e89f3def4d6e58f6d5d4ca332b7cc47173a4e72b1",
+          "size": 8994818
+        }
+      },
       {
         "version": "0.13.40",
         "versionCode": 68,
