@@ -5,8 +5,33 @@
     {
       "id": "auto-farm",
       "name": "自动农场",
-      "latest": "0.9.1",
+      "latest": "0.10.0",
       "versions": [
+        {
+          "version": "0.10.0",
+          "name": "自动农场",
+          "description": "自动种收、土地维护与免费领奖。解锁牧场后可选择维护、饲养和建设，所有操作共用一个账本。",
+          "minKernel": 21,
+          "targets": [
+            {
+              "hostPackage": "com.tencent.mobileqq",
+              "appId": "1112386029"
+            },
+            {
+              "hostPackage": "com.tencent.mm",
+              "appId": "wx5306c5978fdb76e4"
+            }
+          ],
+          "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/auto-farm-v0.10.0",
+          "publishedAt": "2026-11-18T19:29:47Z",
+          "notes": "自动农场 0.10.0\n\n- 修复扩地判定与回执匹配。土地升级和扩地依据服务端条件与可用金币。\n- 接入自家农田浇水、除草和除虫的可选维护流程。\n- 牧场解锁后可选收取产物、生产、清洁、库存维护、幼崽交易、建筑升级、区域解锁及好友照料。操作按模块账本核对回执。\n- 支持 Applet 内核 21 及以上，内核 28 提供新的标签页、指标与开关布局。\n- QQ 自有农场收到过一次真实扩地回执。牧场写操作仍待解锁后验收。\n",
+          "download": {
+            "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/auto-farm-v0.10.0/auto-farm-0.10.0.zip",
+            "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/764702579",
+            "sha256": "46cecda6a837cc8160455d1dc7399496dcbdea6203e292656cd48423f9adfaac",
+            "size": 55222
+          }
+        },
         {
           "version": "0.9.1",
           "name": "自动农场",
