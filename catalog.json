@@ -267,8 +267,23 @@
   ],
   "app": {
     "packageName": "com.applet.store",
-    "latestVersionCode": 73,
+    "latestVersionCode": 74,
     "versions": [
+      {
+        "version": "0.13.46",
+        "versionCode": 74,
+        "minSdk": 33,
+        "packageName": "com.applet.store",
+        "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/app-v0.13.46",
+        "publishedAt": "2026-11-18T19:30:13Z",
+        "notes": "Applet Store 0.13.46 · 内核 28\n\n### 管理器与窗口\n\n- 模块可以声明标签页、标题、指标和开关的顺序。管理器详情、悬浮窗、Cocos 和 ImGui 共用面板协议，原有模块仍支持旧版面板。\n- 公共 ImGui 组件按需加载，多个窗口共用组件。\n- 换网时优先保留仍可用的通道地址，单个绑定更新失败时继续处理其它绑定。\n\n### 自动农场 0.10.0\n\n- 修复自动扩地的判定与回执匹配，补接自家农田的浇水、除草和除虫。\n- 解锁牧场后可选生产、清洁、库存维护、幼崽交易、建设及好友照料。模块沿用操作账本核对回执。\n\n### 验证与兼容性\n\n- 已在 QQ 多开、微信多开和抖音主空间验证模块加载和窗口显示，实测了面板交互、热重载及卸载。QQ 自有农场收到过一次真实扩地回执。\n- 牧场解锁后的写操作、实际换网恢复和连续多小时挂机仍待验证。QQ 更新缓存后首次认证失败的根因仍在排查。\n- APK 支持 arm64 和 Android 13 及以上，沿用上一公开版签名。\n",
+        "download": {
+          "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/app-v0.13.46/AppletStore-0.13.46.apk",
+          "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/764703079",
+          "sha256": "60d0f3058b191460ba06fbad659ea86ff93c6dbd868ac980a8fde1f10c87a73c",
+          "size": 9032258
+        }
+      },
       {
         "version": "0.13.45",
         "versionCode": 73,
