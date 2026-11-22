@@ -5,8 +5,33 @@
     {
       "id": "auto-farm",
       "name": "自动农场",
-      "latest": "0.10.0",
+      "latest": "0.10.1",
       "versions": [
+        {
+          "version": "0.10.1",
+          "name": "自动农场",
+          "description": "自动种收、土地维护与免费领奖。解锁牧场后可选择维护、饲养和建设，所有操作共用一个账本。",
+          "minKernel": 29,
+          "targets": [
+            {
+              "hostPackage": "com.tencent.mobileqq",
+              "appId": "1112386029"
+            },
+            {
+              "hostPackage": "com.tencent.mm",
+              "appId": "wx5306c5978fdb76e4"
+            }
+          ],
+          "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/auto-farm-v0.10.1",
+          "publishedAt": "2026-11-22T11:52:10Z",
+          "notes": "自动农场 0.10.1，需要 Applet Store 0.13.47 / 内核 29。\n\n- 农场原子账本改用内核共用文件接口，修复 QQ SDK 同步写入留下旧账本文本的问题。\n- QQ 与微信继续共用同一个农场模块。原有账本、待确认操作和种收设置保留。\n- QQ 真机已核对种收操作后无已完成账本写入回调滞留；未宣称解决宿主所有内存问题。\n\n请先更新管理器和游戏内核心组件，再更新此模块。旧进程已积累的占用可在正常停止后重开宿主释放，不需要删除缓存或存档。\n",
+          "download": {
+            "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/auto-farm-v0.10.1/auto-farm-0.10.1.zip",
+            "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/778897890",
+            "sha256": "4ee100535e6b8d76f6b89eb1566bf4de188de5eb70311ac9055bde612585dfd9",
+            "size": 55211
+          }
+        },
         {
           "version": "0.10.0",
           "name": "自动农场",
