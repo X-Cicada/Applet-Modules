@@ -267,8 +267,23 @@
   ],
   "app": {
     "packageName": "com.applet.store",
-    "latestVersionCode": 74,
+    "latestVersionCode": 75,
     "versions": [
+      {
+        "version": "0.13.47",
+        "versionCode": 75,
+        "minSdk": 33,
+        "packageName": "com.applet.store",
+        "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/app-v0.13.47",
+        "publishedAt": "2026-11-22T11:51:44Z",
+        "notes": "Applet Store 0.13.47，内核 29，内置自动农场 0.10.1。\n\n- 修复 QQ 同步文件调用结束后仍保留旧账本文本，导致长时间挂机内存持续增长的问题。通用设置、农场账本和 ImGui 文件缓存共用文件接口。\n- 保持原有同步落盘和异常处理顺序，不重置账本、缓存或存档；异步文件回调不变。\n- QQ、微信、抖音的共用文件接口已完成定向实测。QQ 原始 SDK 20 次写入残留 20 条回调，修复路径为 0；真实种收后账本写入回调保持为 0。尚未完成修复后的数小时观测。\n\n更新顺序：先安装此管理器，再按提示更新游戏内核心组件和自动农场模块。农场 0.10.1 需要内核 29。旧进程已经积累的内存需在当前操作完成并正常断开后，正常重开一次对应宿主释放；无需清理游戏数据。\n\nAPK SHA-256：`6d7de05d37857c2b365b1a8ce1c2bd8550ecc0a87adaa55f02f8429219220c6d`。\n",
+        "download": {
+          "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/app-v0.13.47/AppletStore-0.13.47.apk",
+          "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/778896392",
+          "sha256": "6d7de05d37857c2b365b1a8ce1c2bd8550ecc0a87adaa55f02f8429219220c6d",
+          "size": 9032814
+        }
+      },
       {
         "version": "0.13.46",
         "versionCode": 74,
