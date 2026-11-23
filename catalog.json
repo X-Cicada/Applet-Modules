@@ -292,8 +292,23 @@
   ],
   "app": {
     "packageName": "com.applet.store",
-    "latestVersionCode": 75,
+    "latestVersionCode": 77,
     "versions": [
+      {
+        "version": "0.13.49",
+        "versionCode": 77,
+        "minSdk": 33,
+        "packageName": "com.applet.store",
+        "releaseUrl": "https://github.com/X-Cicada/Applet-Modules/releases/tag/app-v0.13.49",
+        "publishedAt": "2026-11-23T23:53:41Z",
+        "notes": "Applet Store 0.13.49 / 内核 30\n\n修复\n- 修复 QQ 小程序配置变大后，点击“开始”出现 Invalid file type or size、无法安装核心的问题。检查、安装、更新、恢复和还原统一读取约束，保留原配置和备份。\n- 开始失败时，界面显示简明原因，控制台保留完整错误详情；文件不可用、读取超限与 Root 入口问题给出清楚提示。\n- 修复等待认证超时只显示 null，以及后台窗口已在虚拟屏幕时漏唤醒的问题。\n- 文件与音频调用共用回调守卫，减少已确认的无用回调滞留。\n\n使用\n- 模块控制页和高级页提供“正常屏幕 / 虚拟屏幕”选择，同一小程序共用模式。\n- 虚拟屏幕可打开只读画面预览，查看更新时间；右上角可回正常屏幕。关闭预览不停止挂机，切换屏幕不改变模块启停。\n- 手动把已有游戏任务移回主屏后，不再自动搬回虚拟屏幕。\n- 模块文件读取不再压缩后立即解压，继续保留路径和大小校验。\n\n说明\n- 虚拟屏幕需要系统提供相应能力；系统省电可能仍冻结宿主。抖音锁屏下再次冻结尚未解决，不保证所有设备持续后台运行。\n- 切换屏幕可能触发宿主重建游戏环境；已有会话和账本负责恢复，不重发结果未知的操作。\n- 沿用既有相关测试与手机验证，QQ 大配置修复在实际原文件上通过只读对照。不会自动更新 QQ、微信或抖音，也不需要清理缓存/存档。\n- 自动农场仍为 0.10.1，本次无需更换模块 ZIP。仅发布 APK 和更新元数据，管理器源码未公开。\n",
+        "download": {
+          "url": "https://github.com/X-Cicada/Applet-Modules/releases/download/app-v0.13.49/AppletStore-0.13.49.apk",
+          "apiUrl": "https://api.github.com/repos/X-Cicada/Applet-Modules/releases/assets/785006547",
+          "sha256": "b24fdbe2b4f5e887ca894ef0c2be0ff51580e4461a5c16f99ef0fc8e0b8edbc7",
+          "size": 9083834
+        }
+      },
       {
         "version": "0.13.47",
         "versionCode": 75,
